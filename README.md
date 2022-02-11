@@ -38,3 +38,9 @@ DC_heat_error_measurement.py ->
 Involves SIgnal Recovery 7265 (Lock-in Amplifier), Keithley 2182 (Nanovoltmeter), and Lakeshore 331 (Temperature controller)
 
 This script performs the measurement of the residual signal in the 1st harmonic caused by the lock in (when turned on and off) to the signal in our experiments. It basically performs a ramp that measures voltage with the NANOVOLTMETER due to the power supplied by the Lock-In amplifier attached to a resistor. 
+
+monitor_temperature.py -> 
+
+Involves Lakeshore 331
+
+Performs a continuous time scan of the temperature for a determined time.
